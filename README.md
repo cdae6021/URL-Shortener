@@ -24,7 +24,7 @@ npm run dev
 ```
 若看見此行訊息則代表順利運行，打開瀏覽器進入到以下網址
 ```
-Listening on http://localhost:3000
+success , http:/localhost:3000
 ```
 若欲暫停使用
 ```
