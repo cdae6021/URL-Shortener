@@ -48,8 +48,8 @@ router.get('/:id', (req, res) => {
     Url.findById(id)
         .lean()
         .then(item => {
-            const targetUrl = `http://localhost:3000/${item.short_url}`
-            res.render('show', { targetUrl })
+            const result_Url = `http://localhost:3000/${item.short_url}`
+            res.render('show', { result_Url })
         })
         .catch(err => {
             console.log(err)
