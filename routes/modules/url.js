@@ -34,6 +34,10 @@ router.post('/', (req, res) => {
                             })
                     })
             }
+            res.redirect(`/url/${item._id}`)
+        })
+        .catch(err => {
+            console.log(err)
         })
 
 })
